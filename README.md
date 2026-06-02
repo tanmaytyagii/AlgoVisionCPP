@@ -35,7 +35,6 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
   <a href="#roadmap">Roadmap</a> •
   <a href="#contributing">Contributing</a>
