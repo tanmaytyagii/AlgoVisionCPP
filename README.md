@@ -1,39 +1,62 @@
+
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-17-blue.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17" />
   <img src="https://img.shields.io/badge/SFML-3.0.2-green.svg?style=for-the-badge&logo=sfml&logoColor=white" alt="SFML" />
-  <img src="https://img.shields.io/badge/Dear_ImGui-1.91.5-purple.svg?style=for-the-badge&logo=imgui&logoColor=white" alt="ImGui" />
+  <img src="https://img.shields.io/badge/Dear_ImGui-1.91.5-purple.svg?style=for-the-badge" alt="Dear ImGui" />
   <img src="https://img.shields.io/badge/CMake-3.22%2B-red.svg?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
 </p>
 
-<h1 align="center">AlgoVisionCPP 🔺</h1>
+<h1 align="center">🚀 AlgoVisionCPP</h1>
 
 <p align="center">
   <strong>Visualize • Learn • Master Algorithms</strong>
 </p>
 
 <p align="center">
-  A modern, interactive desktop application built in C++ to bring Data Structures &amp; Algorithms to life. Featuring real-time controls, multi-threaded worker animations, a side-by-side comparative compiler, and educational complex metrics.
+  A modern C++ Data Structures & Algorithms Visualizer built with SFML, Dear ImGui, and CMake.
+  Explore sorting, searching, graph traversal, pathfinding, and data structures through
+  beautiful real-time interactive visualizations.
 </p>
 
 <p align="center">
-  <a href="https://github.com/tanmaytyagi/AlgoVisionCPP/stargazers"><img src="https://img.shields.io/github/stars/tanmaytyagi/AlgoVisionCPP?style=flat-square&logo=github" alt="Stars" /></a>
-  <a href="https://github.com/tanmaytyagi/AlgoVisionCPP/network/members"><img src="https://img.shields.io/github/forks/tanmaytyagi/AlgoVisionCPP?style=flat-square&logo=github" alt="Forks" /></a>
-  <a href="https://github.com/tanmaytyagi/AlgoVisionCPP/issues"><img src="https://img.shields.io/github/issues/tanmaytyagi/AlgoVisionCPP?style=flat-square" alt="Issues" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/tanmaytyagi/AlgoVisionCPP?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/tanmaytyagii/AlgoVisionCPP/stargazers">
+    <img src="https://img.shields.io/github/stars/tanmaytyagii/AlgoVisionCPP?style=for-the-badge&logo=github" alt="Stars" />
+  </a>
+  <a href="https://github.com/tanmaytyagii/AlgoVisionCPP/network/members">
+    <img src="https://img.shields.io/github/forks/tanmaytyagii/AlgoVisionCPP?style=for-the-badge&logo=github" alt="Forks" />
+  </a>
+  <a href="https://github.com/tanmaytyagii/AlgoVisionCPP/issues">
+    <img src="https://img.shields.io/github/issues/tanmaytyagii/AlgoVisionCPP?style=for-the-badge" alt="Issues" />
+  </a>
+  <a href="https://github.com/tanmaytyagii/AlgoVisionCPP/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/tanmaytyagii/AlgoVisionCPP?style=for-the-badge" alt="License" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#roadmap">Roadmap</a> •
+  <a href="#contributing">Contributing</a>
 </p>
 
 ---
 
-## 🖼️ Project Banner
 
-<p align="center">
-  <img src="assets/screenshots/banner.png" alt="AlgoVisionCPP Banner" width="100%" />
-</p>
+## ⭐ Why AlgoVisionCPP?
 
-> [!NOTE]
-> **Contributors / Maintainers:** You can replace the placeholder banner above by saving a custom `banner.png` (dimensions `1200x400` recommended) into the `assets/screenshots/` directory.
+- 🎯 Interactive Algorithm Learning
+- 📊 Real-Time Performance Analytics
+- ⚡ Side-by-Side Algorithm Comparisons
+- 🌐 Graph & Pathfinding Visualizations
+- 🎨 Modern Dark Theme UI
+- 🧠 Educational Complexity Analysis
+- 🏗️ Built with Modern C++17
+- 🔓 Open Source & Contributor Friendly
 
 ---
+
 
 ## ✨ Features
 
@@ -77,65 +100,6 @@ Our visualizer features distinct modules designed to break down DSA processes st
 *   **Comparisons & Swaps**: Automated counters tracking memory and comparison operations.
 *   **Space & Time Complexity**: Instant complexity charts mapped to the active algorithm.
 
----
-
-## 📷 Screenshots
-
-### Dashboard
-*Main layout hub containing sidebar nav, theme controls, and global settings.*
-![Dashboard](assets/screenshots/dashboard.png)
-
-### Sorting Algorithms
-*Active elements colored in Blue, comparisons in Red, and pivot values in Yellow.*
-![Sorting](assets/screenshots/sorting.png)
-
-### Searching Algorithms
-*Traversal and boundaries animation highlighting matched target indices.*
-![Searching](assets/screenshots/searching.png)
-
-### Graph Visualization
-*Playground editor displaying node movements and Dijkstra shortest paths.*
-![Graph](assets/screenshots/graph.png)
-
-### Pathfinding
-*Grid visualizer demonstrating walls, open frontier set, and final path traceback.*
-![Pathfinding](assets/screenshots/pathfinding.png)
-
-### Theme Showcase
-*Dynamic styles demonstrating Dark, Light, and Cyberpunk Theme palettes.*
-![Themes](assets/screenshots/themes.png)
-
-### Algorithm Analytics Panel
-*Real-time trackers for execution loops, operations, and space/time complexities.*
-![Analytics](assets/screenshots/analytics.png)
-
----
-
-## 📸 Screenshots Needed (Manual Capture Guide)
-
-Since this application is a native C++ desktop software requiring window server permissions (X11 / Quartz / MSBuild Contexts), screenshots must be captured manually:
-
-1.  **Launch the application** via `./build/AlgoVisionCPP`.
-2.  Navigate to each module and capture a screenshot.
-3.  **Save the files** with the exact naming layout under `assets/screenshots/`:
-    *   `dashboard.png`: Core window with sidebar.
-    *   `sorting.png`: An active sorting run (e.g. Quick Sort with Red bars).
-    *   `searching.png`: An active search (e.g. Binary Search showing partitions).
-    *   `graph.png`: Custom node layout showing Kruskal's or Dijkstra's path.
-    *   `pathfinding.png`: Grid showing walls and yellow A* final path.
-    *   `themes.png`: ImGui showing theme combo box style selections.
-    *   `analytics.png`: Bottom dashboard showing execution metrics.
-
----
-
-## 🎥 Live Demo
-
-<p align="center">
-  <img src="assets/demo/demo.gif" alt="AlgoVisionCPP Live Demo" width="80%" />
-</p>
-
-> [!NOTE]
-> Maintainers can record a short screen capture of the sorting/comparison mode, convert it to a `.gif` format, and replace the `demo.gif` file in the `assets/demo/` folder to display a live animation here.
 
 ---
 
@@ -309,7 +273,7 @@ We have marked issues suitable for first-time contributors:
 
 ## 👥 Contributors
 
-*   **Tanmay Tyagi** - *Creator & Maintainer* - [@tanmaytyagi](https://github.com/tanmaytyagi)
+*   **Tanmay Tyagi** - *Creator & Maintainer* - [@tanmaytyagi](https://github.com/tanmaytyagii)
 *   Feel free to submit PRs to join our contributors circle!
 
 ---
