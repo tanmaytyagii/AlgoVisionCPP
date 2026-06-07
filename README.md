@@ -28,9 +28,6 @@
   <a href="https://github.com/tanmaytyagii/AlgoVisionCPP/issues">
     <img src="https://img.shields.io/github/issues/tanmaytyagii/AlgoVisionCPP?style=for-the-badge" alt="Issues" />
   </a>
-  <a href="https://github.com/tanmaytyagii/AlgoVisionCPP/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/tanmaytyagii/AlgoVisionCPP?style=for-the-badge" alt="License" />
-  </a>
 </p>
 
 <p align="center">
